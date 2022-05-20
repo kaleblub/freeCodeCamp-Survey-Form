@@ -8,62 +8,65 @@
     <form id="survey-form">
       <div>
       <label for="name" id="name-label">Name</label>
-      <input type="text" id="name" placeholder="Type your name here">
+      <input type="text" id="name" class="input-box" placeholder="Type your name here">
       </div>
       <br>
       <div>
       <label for="email" id="email-label">Email</label>
-      <input type="email" id="email" placeholder="Type your email here">
+      <input type="email" id="email" class="input-box" placeholder="Type your email here">
       </div>
       <br>
       <div>
       <label for="number" id="number-label">Number</label>
-      <input type="number" id="number" min="18" max="100" placeholder="Input your age here">
+      <input type="number" id="number" class="input-box" min="18" max="100" placeholder="Input your age here">
       </div>
       <br>
       <div>
-      <label for="dropdown">Dropdown</label>
-      <select id="dropdown">
-        <option>Opt 1</option>
-        <option>Opt 2</option>
-        <option>Opt 3</option>
-      </select>
-      </div>
-      <br>
+        <label for="dropdown">What brought you to this page?</label>
+          <select id="dropdown">
+            <option>Github</option>
+            <option>Portfolio Website</option>
+            <option>freeCodeCamp</option>
+          </select>
+        </div>
+        <br>
       <div>
       <fieldset>
-        <legend>Radio buttons</legend>
-        <input type="radio">
-        <label>1</label>
+        <legend>How would you rate my skills?</legend>
+        <input type="radio" id="1-star" name="star-ratings" value="one">
+        <label for="1-star">1 Star</label>
         </br>
-        <input type="radio">
-        <label>1</label>
+        <input type="radio" id="2-star" name="star-ratings" value="two">
+        <label for="2-star">2 Stars</label>
         </br>
-        <input type="radio">
-        <label>1</label>
+        <input type="radio" id="3-star" name="star-ratings" value="three">
+        <label for="3-star">3 Stars</label>
         </br>
-        <input type="radio">
-        <label>1</label>
+        <input type="radio" id="4-star" name="star-ratings" value="four">
+        <label for="4-star">4 Stars</label>
+        </br>
+        <input type="radio" id="5-star" name="star-ratings" value="five">
+        <label for="5-star">5 Stars</label>
         </br>
       </fieldset>    
   </div>
 <div>
       <fieldset>
-        <legend>What are your favorite features of Nala?</legend>
+        <legend>What are your favorite aspects of this survey?</legend>
         <input type="checkbox">
-        <label>Ears</label>
+        <label>Design</label>
         </br>
         <input type="checkbox">
-        <label>Eyes</label>
+        <label>Responsiveness</label>
         </br>
         <input type="checkbox">
-        <label>Fur</label>
+        <label>Functionality</label>
         </br>
         <input type="checkbox">
-        <label>Tail</label>
+        <label>Font</label>
         </br>
         <input type="checkbox">
-        <label>Feet</label>
+        <label>Understandibility</label>
         </br>
         <input type="checkbox">
         <label>Other</label>
